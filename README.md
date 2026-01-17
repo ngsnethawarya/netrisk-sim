@@ -1,17 +1,15 @@
 # netrisk-sim
 
-netrisk-sim is a small Python project created to explore how basic network risk
-can be estimated using weighted scoring models.
+netrisk-sim is a simple Python-based simulation tool that models how risk
+can differ across hosts in a network based on exposed services and basic
+configuration factors.
 
-The project simulates hosts with different exposed services and applies
-configurable risk weights to produce a simple risk ranking.
+This project focuses on risk-based thinking rather than exploitation.
+It demonstrates how decisions such as open ports, service exposure, and
+configuration choices can increase attack surface before any active
+threat is present.
 
-This tool is intended for learning and experimentation, not production use.
+The purpose of this repository is to practice defensive analysis and
+develop intuition around how network design influences security risk,
+using a lightweight and transparent simulation approach.
 
-## Project Goals
-- Practice structured Python design
-- Apply basic risk assessment logic
-- Separate data, scoring, and evaluation logic
-
-## Status
-Initial development.
